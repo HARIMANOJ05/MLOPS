@@ -1,12 +1,15 @@
 import os 
 from pathlib import Path
 
+package_name = "mongodb_connect"
 
 list_of_files=[
 
-".github/workflows/.gitkeep",
+".github/workflows/ci.yaml",
 "src/__inti__.py",
 "src/components/__init__.py",
+f"src/{package_name}/__init__.py",
+f"src/{package_name}/mongodb_crud.py",
 "src/components/data_ingestion.py",
 "src/components/data_transformation.py",
 "src/components/model_trainer.py",
