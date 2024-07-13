@@ -25,4 +25,5 @@ setup(
     },
     package_dir={"": "src"},
     packages=find_packages(where="src"),
+    install_requires=["numpy","pymongo","pymongo[srv]","dnspython","pandas","ensure","pytest"]
     )
